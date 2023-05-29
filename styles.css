@@ -1,12 +1,17 @@
+/* todo el documento */
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Mukta', sans-serif;
 }
 
 body{
     width: 1080px;
     margin: 0 auto;
 }
+
+/* barra de navegaciom */
 
 nav{
     margin: 0 auto;
@@ -27,15 +32,17 @@ nav ul li a{
     text-align: center;
     color: black;
     padding: 10px 0;
-    font-family: 'Mukta', sans-serif;
 }
 
 nav ul li a:hover{
     color: gray;
 }
 
+/* header */
+
 header{
     margin: auto;
+    position: relative;
 }
 
 #logo{
@@ -46,6 +53,9 @@ header{
     text-indent: -250px;
     overflow: hidden;
     margin: 10px auto;
+    position: absolute;
+    top: 5px;
+    left: 10px;
 }
 
 #logo a{
@@ -57,6 +67,25 @@ header{
     width: 1080px;
     margin-bottom: 50px;
 }
+
+.main-text{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    background-color: rgba(255, 255, 255, 0.866);
+    padding: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+.main-text h2{
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* best-sellers */
 
 .best-sellers{
     width: 1080px;
@@ -73,6 +102,11 @@ header{
     border: 1px solid rgba(0, 0, 0, 0.177);
 }
 
+.best-sellers div:hover{
+    transform: scale(1.06);
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.338);
+}
+
 .best-sellers div img {
     width: 100%;
 }
@@ -84,6 +118,8 @@ header{
     color: rgb(49, 48, 48);
 } 
 
+/* banner central */
+
 .center-banner{
     background-image: url(assets/images/center-banner.jpeg);
     background-attachment: fixed;
@@ -94,8 +130,50 @@ header{
     margin: 50px 0;
 }
 
+
+/* contacto */
+
+.contact-section{
+    width: 1080px;
+    height: 230px;
+
+}
+
+.contact-section ul{
+    list-style: none;
+    display: inline-block;
+    width: 538px;
+    height: 230px;
+    text-align: center;
+}
+
+.social-media{
+    background-color: #ffd8d2;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.contact-list{
+    display: inline-block;
+}
+
+.contact-section ul li img{
+    width: 20px;
+}
+
+
+
+/* footer */
+
 footer{
     width: 1080px;
     height: 200px;
-    background-color: antiquewhite;
+    background-color: cornflowerblue;
+    margin-top: 40px;
+    background-color: white;
+    box-shadow: 1px rgba(0, 0, 0, 0.456);
+    -webkit-box-shadow: 1px -8px 30px -8px rgba(0,0,0,0.72);
+    -moz-box-shadow: 1px 0px 30px 0px rgba(0,0,0,0.72);
 }
+
