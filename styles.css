@@ -137,23 +137,23 @@ header{
 .contact-section{
     width: 1080px;
     height: 250px;
-
+    margin-top: 20px;
 }
 
 .contact-section ul{
     list-style: none;
     display: inline-block;
     width: 538px;
-    height: 250px;
+    height: 200px;
     text-align: center;
 }
 
 .social-media{
     background-color: #7ea398;
     margin: 0;
-    padding: 0;
     color: white;
     float: left;
+    padding-top: 50px;
 }
 
 .social-media li{
@@ -162,10 +162,16 @@ header{
 
 .contact-list{
     float: right;
+    padding-top: 10px;
 }
 
 .contact-list li{
   margin: 10px;
+}
+
+.contact-list li a{
+    text-decoration: none;
+    color: black;
 }
 
 .arroba{
