@@ -60,13 +60,16 @@ nav ul li a:hover{
 
 header{
     margin: auto;
-    position: relative;
+    position: fixed;
+    width: 1080px;
+    background-color: white;
+    z-index: 1;
 }
 
 
 .main-banner{
     width: 1080px;
-    margin-bottom: 50px;
+    margin: 50px 0px;
 }
 
 .main-text{
@@ -198,7 +201,7 @@ footer p{
 }
 
 /*BUTTON---------------------------*/
-
+/* 
 .button{
     height: 80px;
     width: 80px;
@@ -217,4 +220,4 @@ footer p{
     display: block;
     line-height: 75px;
 
-}
+} */
