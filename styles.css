@@ -36,14 +36,14 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #ffd8d2;
-    border-bottom: 1px solid #ffd8d2;
+    color: #f9d2ea;
+    border-bottom: 1px solid #f9d2ea;
 }
 
 #logo{
     width: 150px;
     height: 40px;
-    background-image: url(assets/images/logoCherry.png);
+    background-image: url(assets/images/logo-cherry.png);
     background-repeat: no-repeat;
     text-indent: -250px;
     overflow: hidden;
@@ -93,13 +93,13 @@ header{
 
 .best-sellers{
     width: 1080px;
-    height: 400px;
     margin: 0 auto;
 
 }
 
 .best-sellers div{
     width: 200px;
+    height: 300px;
     display: inline-block;
     margin: 20px;
     padding: 20px 12px;
@@ -112,7 +112,19 @@ header{
 }
 
 .best-sellers div img {
-    width: 100%;
+    width: 190px;
+    margin: 0 auto;
+}
+
+.best-sellers div h3{
+    font-size: 15px;
+}
+.best-sellers div p{
+    width: 190px;
+    height: 90px;
+    margin-bottom: 0px ;
+    font-size: 14px;
+    text-align: left;
 }
 
 .section-title{
@@ -121,7 +133,7 @@ header{
     font-size: 45px;
     color: rgb(49, 48, 48);
     text-align: center;
-} 
+}
 
 /* CENTER BANNER----------------- */
 
@@ -144,15 +156,11 @@ header{
     margin-top: 20px;
 }
 
-.contact-section ul{
+.social-media{
     list-style: none;
-    display: inline-block;
     width: 538px;
     height: 200px;
     text-align: center;
-}
-
-.social-media{
     background-color: #7ea398;
     margin: 0;
     color: white;
@@ -161,36 +169,67 @@ header{
 }
 
 .social-media li{
-    margin: 10px;
+    margin: 15px 20px;
+    display: inline-block;
 }
 
+.icons-media li a{
+    width: 50px;
+    display: block;
+}
+
+.icons-media li a img{
+    width: 50px;
+}
+
+.icons-media li a img:hover{
+    transform: scale(1.08);
+}
+
+.icons-media{
+    width: 400px;
+    height: 50px;
+}
+    
 .contact-list{
     float: right;
-    padding-top: 10px;
+    padding-top: 30px;
+    list-style: none;
+    width: 250px;
+    height: 200px;
+    margin-right: 120px;
 }
 
 .contact-list li{
-  margin: 10px;
+    margin: 10px;
+    display: inline-block;
 }
 
 .contact-list li a{
-    text-decoration: none;
+    text-decoration: underline;
     color: black;
+    display: block;
+    height: 30px;
+    
 }
 
-.arroba{
-    color: #ffd8d2;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;    
-    font-weight: 900;
-    font-size: 20px;
+.contact-list li a img{
+    width: 30px;
 }
 
+.contact-list li a img:hover{
+    transform: scale(1.1);
+}
 
- /* FOOTER---------------------- */
+.contact-list-text:hover{
+    color:#f9d2ea
+}
+
+/* FOOTER---------------------- */
 
 footer{
     height: 100px;
-    margin-top: 40px;
+    margin-top: 10px;
     background-color: black;
 }
 
@@ -199,25 +238,3 @@ footer p{
     padding: 30px;
     color: white; 
 }
-
-/*BUTTON---------------------------*/
-/* 
-.button{
-    height: 80px;
-    width: 80px;
-    background-color: #800101;
-    border-radius: 50%;
-    position: fixed;
-    z-index: 1;
-    bottom: 20px;
-    right: 200px;
-}
-
-.button a{
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    line-height: 75px;
-
-} */
