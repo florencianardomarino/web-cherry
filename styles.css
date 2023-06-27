@@ -206,30 +206,30 @@ header{
     float: right;
     padding-top: 30px;
     list-style: none;
-    width: 250px;
+    width: 270px;
     height: 200px;
     margin-right: 120px;
 }
 
-.contact-list li{
+.contact-list ul li{
     margin: 10px;
     display: inline-block;
 }
 
-.contact-list li a{
+.contact-list li ul li a{
     text-decoration: underline;
     color: black;
     display: block;
     height: 30px;
-    
+    float: right;    
 }
 
-.contact-list li a img{
+.contact-list li ul li a img{
     width: 30px;
 }
 
-.contact-list li a img:hover{
-    transform: scale(1.1);
+.contact-list li ul li a img:hover{
+    transform: scale(1.2);
 }
 
 .contact-list-text:hover{
